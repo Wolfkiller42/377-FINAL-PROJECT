@@ -6,6 +6,8 @@
 **Description**:  
 This web application allows users to input a phone number and verify its validity, carrier, line type, and country information using the NumVerify API. The application sends requests from a React-based frontend to a Node.js/Express backend, which then stores the validated results in a Supabase database. Results are displayed to the user both textually and visually using Chart.js. The system includes multiple views, including a homepage, about page, and the phone verification page which represents the core functionality.
 
+*** One thing to keep in mind when testing the app on Vercel is that, although the app runs locally with no problems when the backend server is active. Vercel has no way of me running the backend server, which causes it to return an error. If you run the full program locally, everything should work fine.
+
 **Target Browsers**:  
 - Google Chrome 
 - Safari on macOS and iOS  
