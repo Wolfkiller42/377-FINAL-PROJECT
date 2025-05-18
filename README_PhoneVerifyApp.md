@@ -7,18 +7,14 @@
 This web application allows users to input a phone number and verify its validity, carrier, line type, and country information using the NumVerify API. The application sends requests from a React-based frontend to a Node.js/Express backend, which then stores the validated results in a Supabase database. Results are displayed to the user both textually and visually using Chart.js. The system includes multiple views, including a homepage, about page, and the phone verification page which represents the core functionality.
 
 **Target Browsers**:  
-- Google Chrome (latest)  
-- Mozilla Firefox (latest)  
+- Google Chrome 
 - Safari on macOS and iOS  
 - Microsoft Edge  
-- Mobile Safari (iOS)  
-- Chrome on Android  
 
 **Link to Developer Manual**:  
 See the second half of this README below.
 
 ---
-
 # Developer Manual
 
 This developer manual is intended for future developers who will maintain or continue working on the Phone Verify App. The audience is assumed to have general web development experience but no prior knowledge of this project.
